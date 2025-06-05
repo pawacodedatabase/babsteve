@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaTwitter, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
               <FaInstagram size={24} />
             </a>
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/Babsteves"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#303166] hover:text-[#01aefb] transition duration-300"
@@ -40,12 +40,12 @@ const Footer: React.FC = () => {
               <FaTwitter size={24} />
             </a>
             <a
-              href="https://linkedin.com"
+              href="mailto:Babsteves@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#303166] hover:text-[#01aefb] transition duration-300"
             >
-              <FaLinkedin size={24} />
+              <FaEnvelope size={24} />
             </a>
           </div>
         </div>
