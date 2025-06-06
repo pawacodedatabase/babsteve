@@ -108,7 +108,7 @@ const App: React.FC = () => {
       <ScrollToTop /> {/* Add ScrollToTop here */}
       <MovingText />
       <Link
-  to={`https://wa.me/+2348067679019`}
+  to={`https://wa.me/message/W4OCO7AMUVYKL1`}
   target="_blank"
   rel="noopener noreferrer"
   className="fixed bottom-6 left-6 flex items-center gap-2 bg-black text-white py-3 px-5 rounded-full shadow-lg hover:border-2 hover:border-black hover:bg-white hover:text-black transition duration-300 z-[1000000000]"

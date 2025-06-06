@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
           {/* Social Media Icons */}
           <div className="flex space-x-6">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/share/1A4sgtk86B/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#303166] hover:text-[#01aefb] transition duration-300"
@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
               <FaFacebookF size={24} />
             </a>
             <a
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/babstevesolar?igsh=M2ZhbnNscHd4Zm82&utm_source=qr"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[#303166] hover:text-[#01aefb] transition duration-300"
