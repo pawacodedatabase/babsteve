@@ -9,6 +9,7 @@ import solarIntegration from "../../../src/assets/so.jpg";
 import solarShifting from "../../../src/assets/so.jpg";
 import solarDemand from "../../../src/assets/so.jpg";
 import solarReserve from "../../../src/assets/so.jpg";
+import OurProjects from "./OurProjects";
 
 
 
@@ -99,8 +100,11 @@ const HomeSectiom: React.FC = () => {
           </p>
           <button className="bg-[#01aefb] px-4 py-2 text-sm">Get an offer</button>
         </div>
+        
         <img src={solarPanel2} alt="Solar Panel Forest" className="w-full rounded-xl" />
       </section>
+
+      <OurProjects/>
 
   
 <section className="text-center px-6 py-20 bg-gray-50 fade-section opacity-0 transition-opacity duration-[1200ms] ease-in">

@@ -1,8 +1,10 @@
 import React from "react";
 import ceoImg from "../assets/tk.jpg"; 
 import bgImage from "../assets/b735c257b82d984ab37b0cb0e6517bc3.jpg"; 
+import OurProjects from "./homeComponents/OurProjects";
 const AboutUs: React.FC = () => {
   return (
+    <>
     <div className="bg-gray-100 text-gray-800 min-h-screen font-sans">
       {/* Hero Section */}
    <section
@@ -101,6 +103,8 @@ const AboutUs: React.FC = () => {
 </section>
 
     </div>
+    <OurProjects/>
+    </>
   );
 };
 
