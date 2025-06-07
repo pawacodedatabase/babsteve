@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col sm:flex-row justify-between items-center mb-12">
           <div className="text-center sm:text-left mb-6 sm:mb-0">
             
-            <p className="text-lg mt-2 text-[#01aefb]">Stylish & Comfortable Footwear for All</p>
+            {/* <p className="text-lg mt-2 text-[#01aefb]">Stylish & Comfortable Footwear for All</p> */}
           </div>
 
           {/* Social Media Icons */}

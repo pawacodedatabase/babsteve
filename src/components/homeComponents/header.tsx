@@ -154,17 +154,17 @@ const Header: React.FC = () => {
               </Link>
             </li> */}
             {/* <hr /> */}
-            {/* <li>
+            <li>
               <Link
-                to="/guide"
+                to="/about"
                 onClick={() => setIsMenuOpen(false)}
                 className="relative group block hover:text-black transition duration-300"
               >
-                Guide
+                About Us
                 <span className="absolute bottom-0 left-1/2 w-0 h-[2px] bg-black transition-all duration-300 transform -translate-x-1/2 group-hover:w-full group-hover:scale-x-100"></span>
               </Link>
             </li>
-            <hr /> */}
+            <hr />
             <li>
               <Link
                 to="/blog"

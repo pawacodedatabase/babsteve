@@ -1,27 +1,60 @@
-import React from 'react';
-import HeroSection from '../components/homeComponents/Hero';
-// import CategoryPage from '../components/homeComponents/Category';
-// import { products } from "../pages/Products/products";
-// import RandomProducts from './Products/RelatedProd';
-// import BlogBanner from './Blog/blogBanner';
-import FeaturedBlog from './Blog/featuredBlog';
-import FeaturedProducts from './Products/RelatedProd';
+import React from "react";
 import ceoImg from "../assets/tk.jpg"; 
-import { Link } from 'react-router-dom';
-import HomeSectiom from '../components/homeComponents/homeSection';
-
-
-const Home: React.FC = () => {
+import bgImage from "../assets/b735c257b82d984ab37b0cb0e6517bc3.jpg"; 
+const AboutUs: React.FC = () => {
   return (
-<>
-<HeroSection/>
-{/* <CategoryPage products={products}/> */}
-<FeaturedProducts/>
-<HomeSectiom/>
-<FeaturedBlog/>
-{/* <BlogBanner/> */}
+    <div className="bg-gray-100 text-gray-800 min-h-screen font-sans">
+      {/* Hero Section */}
+   <section
+  className="bg-cover bg-center text-white py-20 text-center shadow-lg"
+  style={{
+    backgroundImage: `url(${bgImage})`,
+  }}
+>
+  <div className="bg-black/50 py-10 px-4">
+    <h1 className="text-4xl md:text-5xl font-bold">About Babsteve Solar</h1>
+    <p className="mt-4 text-lg md:text-xl">
+      Powering a brighter, sustainable future
+    </p>
+  </div>
+</section>
 
- <section className="py-20 px-6 md:px-20 bg-gradient-to-br from-gray-50 to-gray-100">
+
+
+      {/* Company Overview */}
+      <section className="py-16 px-6 md:px-20">
+        <h2 className="text-3xl font-bold mb-6 text-[#01aefb]">Who We Are</h2>
+        <p className="text-lg leading-7">
+          Babsteve Solar is a pioneering renewable energy company committed to
+          delivering reliable and sustainable solar power solutions across
+          Nigeria and beyond. We focus on harnessing solar energy to provide
+          clean, affordable electricity to homes, businesses, and communities.
+        </p>
+      </section>
+
+      {/* Mission & Vision */}
+      <section className="bg-white py-16 px-6 md:px-20">
+        <div className="grid md:grid-cols-2 gap-12">
+          <div>
+            <h3 className="text-2xl font-semibold mb-4 text-[#01aefb]">Our Mission</h3>
+            <p className="text-gray-700 leading-7">
+              To empower lives through clean and renewable solar energy,
+              ensuring energy independence and sustainability for future
+              generations.
+            </p>
+          </div>
+          <div>
+            <h3 className="text-2xl font-semibold mb-4 text-[#01aefb]">Our Vision</h3>
+            <p className="text-gray-700 leading-7">
+              To become the leading provider of innovative solar solutions in
+              Africa by delivering excellence, affordability, and reliability.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CEO Section */}
+   <section className="py-20 px-6 md:px-20 bg-gradient-to-br from-gray-50 to-gray-100">
   <div className="max-w-5xl mx-auto bg-white shadow-2xl rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-10 hover:shadow-[0_20px_50px_rgba(1,174,251,0.2)] transition-all duration-500">
     <div className="relative">
       <div className="w-48 h-48 rounded-full border-4 border-[#01aefb] shadow-xl overflow-hidden">
@@ -61,24 +94,14 @@ const Home: React.FC = () => {
             <path d="M22.46 6c-.77.35...Z" />
           </svg>
         </a>
-
-       <div className="mt-4 m-auto">
-          <Link
-            to={`/about`}
-            className="mt-2 px-4 py-2 bg-[#01aefb] text-white rounded-md hover:bg-gray-600"
-          >
-            Read More
-          </Link>
-        </div>
         {/* Add more icons like LinkedIn, Twitter, etc. */}
       </div>
     </div>
   </div>
 </section>
 
-
-</>
+    </div>
   );
 };
 
-export default Home;
+export default AboutUs;

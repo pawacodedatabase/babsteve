@@ -24,6 +24,7 @@ import Admin from "./pages/Backend/shopadmin";
 import Shop from "./pages/Backend/shop";
 import ShopDetails from "./pages/Backend/shopdetails";
 import { FaWhatsapp } from "react-icons/fa";
+import AboutUs from "./components/aboutus";
 
 
 const App: React.FC = () => {
@@ -152,6 +153,7 @@ const App: React.FC = () => {
           <Route path="/shop/:id" element={<ShopDetails />} /> 
           <Route path="/admin" element={<Admin />} /> 
           <Route path="/blog" element={<Blog />} /> 
+          <Route path="/about" element={<AboutUs />} /> 
           <Route path="/blog/:id" element={<BlogDetail />} /> 
           
 
