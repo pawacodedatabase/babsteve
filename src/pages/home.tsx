@@ -62,7 +62,11 @@ const Home: React.FC = () => {
           </svg>
         </a>
 
-       <div className="mt-4 m-auto">
+      
+        {/* Add more icons like LinkedIn, Twitter, etc. */}
+      </div>
+    </div> 
+    <div className=" m-auto">
           <Link
             to={`/about`}
             className="mt-2 px-4 py-2 bg-[#01aefb] text-white rounded-md hover:bg-gray-600"
@@ -70,9 +74,6 @@ const Home: React.FC = () => {
             Read More
           </Link>
         </div>
-        {/* Add more icons like LinkedIn, Twitter, etc. */}
-      </div>
-    </div>
   </div>
 </section>
 
