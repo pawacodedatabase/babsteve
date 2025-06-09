@@ -107,7 +107,13 @@ const ShopDetails: React.FC = () => {
 
       {/* Product Info */}
       <h2 className="text-3xl font-thin text-gray-900 mb-3">{product.name}</h2>
-      <p className="text-xl text-[#19a5e1] mt-5 ">₦{product.price}</p>
+      <p className="text-xl text-[#19a5e1] mt-5">
+  {new Intl.NumberFormat("en-NG", {
+    style: "currency",
+    currency: "NGN",
+  }).format(product.price || 0)}
+</p>
+
 
 {/* <p className="text-sm text-center ">We are offering a  <span className="font-bold text-gray-500">20% discount, </span> so the price you will be paying is  <span className=" text-red-600">₦{product.originalPrice}</span></p> */}
 
