@@ -89,7 +89,13 @@ const FeaturedProducts: React.FC = () => {
             </div>
           ))}
         </div>
-      )}
+       
+      )} <Link
+                to={`/shop`}
+                className="block bg-[#00b1ed] hover:bg-[#404160] w-[300px] m-auto text-white text-center mt-3 py-2 rounded"
+              >
+                View All Products
+              </Link>
     </div>
   );
 };
