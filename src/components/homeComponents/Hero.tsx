@@ -1,5 +1,5 @@
 import React from 'react';
-import bgvid from '../../../src/assets/Adore The Brand.mov';
+import bgvid from '../../../src/assets/log.mp4';
 import bgpic from '../../../src/assets/Adore The Brand.jpg';
 import { Link } from 'react-router-dom';
 
